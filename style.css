@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.div-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.div-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-content-title {
+    font-size: 36px;
+    font-family: "Krona One", "Calibri";
+}
+
+.div-content-title span {
+    color: #22D4FD;
+}
+
+.div-content-text {
+    font-family: "Montserrat";
+    font-size: 24px;
+}
+
+.div-content-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div-content-buttons button {
+    background-color: #22D4FD;
+    border: none;
+    border-radius: 16px;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;;
+}
+
+.div-content-buttons button:hover {
+    background-color: #1eb7da;
+}
+
+.img-content {
+    width: 400px;
+    border-radius: 16px;
+    margin-left: 50px;
+}

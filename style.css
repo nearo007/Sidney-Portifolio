@@ -19,6 +19,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     width: 50%;
+    height: 420px;
 }
 
 .div-content-left {
@@ -29,7 +30,8 @@ main {
 }
 
 .div-content-title {
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 50px;
     font-family: "Krona One", "Calibri";
 }
 
@@ -39,7 +41,9 @@ main {
 
 .div-content-text {
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .div-content-buttons {
@@ -49,24 +53,27 @@ main {
     width: 100%;
 }
 
-.div-content-buttons button {
+.div-content-buttons .a-button {
+    text-decoration: none;
+    color: black;
     background-color: #22D4FD;
     border: none;
-    border-radius: 16px;
-    padding: 20px 50px;
-    font-size: 18px;
+    border-radius: 12px;
+    padding: 20px 60px;
+    font-size: 20px;
     font-family: "Montserrat";
     font-weight: 600;
     cursor: pointer;
-    transition: .2s;;
+    transition: .2s;
 }
 
-.div-content-buttons button:hover {
+.div-content-buttons .a-button:hover {
     background-color: #1eb7da;
 }
 
 .img-content {
-    width: 400px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 16px;
     margin-left: 50px;
 }

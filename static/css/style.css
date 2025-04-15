@@ -36,7 +36,7 @@ main {
 }
 
 .div-content-title span {
-    color: #22D4FD;
+    color: #85ffda;
 }
 
 .div-content-text {
@@ -55,8 +55,8 @@ main {
 
 .div-content-buttons .a-button {
     text-decoration: none;
-    color: black;
-    background-color: #22D4FD;
+    color: rgb(0, 0, 0);
+    background-color: #85ffda;
     border: none;
     border-radius: 12px;
     padding: 20px 60px;
@@ -68,7 +68,7 @@ main {
 }
 
 .div-content-buttons .a-button:hover {
-    background-color: #1eb7da;
+    background-color: #85ffda;
 }
 
 .img-content {

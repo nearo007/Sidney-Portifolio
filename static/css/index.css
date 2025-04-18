@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(7, 9, 19);
+    background-image: linear-gradient(to top, black, rgb(17, 0, 36));
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+main span {
+    color: #85ffda;
+}
+
+.div-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 420px;
+    margin-top: 5%;
+}
+
+.div-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-content-left div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(80, 0, 185, 0.95);
+    margin-right: 50px;
+    border-radius: 50%;
+    background: linear-gradient(
+        270deg,
+        rgb(0, 0, 95),
+        rgb(65, 28, 168),
+        rgb(133, 255, 218),
+        rgb(0, 0, 95)
+    );
+    background-size: 400% 400%;
+    animation: changeColor 6s ease infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.div-content-left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.div-content-title {
+    font-size: 32px;
+    line-height: 50px;
+    font-family: "Krona One", "Calibri";
+}
+
+.div-content-text {
+    font-family: "Montserrat";
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.div-content-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+.div-content-buttons .a-button {
+    display: flex;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    transition: .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.div-content-buttons .a-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: invert(1);
+    transition: .1s;
+}
+
+.div-content-buttons .a-button:hover img {
+    opacity: .5;
+}
+
+.img-content {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-left: 50px;
+}
